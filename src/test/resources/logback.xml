@@ -20,7 +20,7 @@
     </appender>
 
     <root level="debug">
-<!--                <appender-ref ref="STDOUT" />-->
+        <!--                <appender-ref ref="STDOUT" />-->
         <!--        for windows, you can leave previous string - for mac need to comment-->
         <appender-ref ref="FILE" />
     </root>

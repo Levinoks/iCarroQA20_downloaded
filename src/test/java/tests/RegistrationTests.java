@@ -6,19 +6,19 @@ import org.testng.annotations.*;
 
 public class RegistrationTests extends BaseTest {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preconditionsRegistration() {
         logoutIflogin();
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postconditionsRegistration() {
 
         clickOkIfRegistered();
         app.getUserHelper().refreshPage();
     }
 
-    @Test
+    @Test(groups = {"smoke", "regression"})
     public void positiveRegistration() {
         String email = randomUtils.generateEmail(7);
 
@@ -61,7 +61,7 @@ public class RegistrationTests extends BaseTest {
         Assert.assertTrue(app.getUserHelper().validateMessageWrongPasswordReg());
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void negativeRegistrationBlankEmail() {
         UserDtoLombok user = UserDtoLombok.builder()
                 .email("")

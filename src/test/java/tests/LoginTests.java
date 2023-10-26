@@ -8,12 +8,12 @@ import org.testng.annotations.*;
 
 public class LoginTests extends BaseTest {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preconditionsLogin() {
         logoutIflogin();
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postconditionsLogin() {
         clickOkIfRegistered();
         app.getUserHelper().pause(3);
@@ -36,7 +36,7 @@ public class LoginTests extends BaseTest {
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterLogin());
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void positiveLogin() {
         app.getUserHelper().loginUserDtoLombok(userDtoLombok);
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterLogin());
@@ -52,7 +52,7 @@ public class LoginTests extends BaseTest {
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageLoginIncorrect());
     }
 
-    @Test
+    @Test(groups = {"smoke", "regression"})
     public void negativePasswordWithoutNumbers() {
         UserDtoLombok userDtoLombok = UserDtoLombok.builder()
                 .email("testqa20@gmail.com")
@@ -62,7 +62,7 @@ public class LoginTests extends BaseTest {
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageLoginIncorrect());
     }
 
-    @Test
+    @Test(groups = {"regression"})
     public void negativePasswordWithoutLetters() {
         UserDtoLombok userDtoLombok = UserDtoLombok.builder()
                 .email("testqa20@gmail.com")

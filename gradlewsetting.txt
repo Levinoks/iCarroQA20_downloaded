@@ -1,0 +1,17 @@
+./gradlew test
+./gradlew clean test
+./gradlew clean loginSmoke
+./gradlew clean registrationSmoke
+
+ ./gradlew clean -Dgroups=smoke allTestsSmoke
+
+ ./gradlew clean -Dgroups=regression -Ptarget=prod loginRegression
+
+./gradlew clean -Pbrowser=firefox loginSmoke   --- failed
+./gradlew clean -Pbrowser=chrome loginSmoke   ---   failed
+ ./gradlew clean -Dgroups=regression -Ptarget=fake loginRegression   ---   failed
+
+
+
+
+

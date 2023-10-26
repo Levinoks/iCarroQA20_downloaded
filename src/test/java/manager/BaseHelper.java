@@ -19,6 +19,7 @@ public class BaseHelper {
     }
 
     private WebElement findElementBase(By locator) {
+        logger.info("search element by locator: " + locator);
         System.out.println(locator);
         return driver.findElement(locator);
     }

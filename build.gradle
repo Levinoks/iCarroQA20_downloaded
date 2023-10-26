@@ -26,3 +26,69 @@ dependencies {
 test {
     useTestNG()
 }
+
+
+task loginSmoke(type: Test) {
+    useTestNG() {
+        suites 'src//test//resources//loginSmoke.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser',
+                "${browser}"
+    }
+
+}
+task loginRegression(type: Test) {
+    useTestNG() {
+        suites 'src//test//resources//loginRegression.xml'
+
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
+        if (project.hasProperty('target')) {
+            systemProperty 'target', "${target}"
+        }
+    }
+}
+
+task AllTestsSmoke(type: Test) {
+    useTestNG() {
+
+
+        if (project.hasProperty('browser')) {
+            systemProperty 'browser',
+                    "${browser}"
+        }
+        def suite = System.getProperty('suite')
+        if (suite.equals 'login') {
+            suites 'src//test//resources//loginSmoke.xml'
+        } else {
+            suites 'src//test//resources//registrationSmoke.xml'
+        }
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
+        if (project.hasProperty('target')) {
+            systemProperty 'target', "${target}"
+        }
+    }
+}
+
+task regSmoke(type: Test) {
+    useTestNG() {
+        suites 'src//test//resources//registrationSmoke.xml'
+
+        if (project.hasProperty('browser')) {
+            systemProperty 'browser',
+                    "${browser}"
+        }
+        def suite = System.getProperty('suite')
+        if (suite.equals 'login') {
+            suites 'src//test//resources//loginSmoke.xml'
+        } else {
+            suites 'src//test//resources//registrationSmoke.xml'
+        }
+    }
+}
