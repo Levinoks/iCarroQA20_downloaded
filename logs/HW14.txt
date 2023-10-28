@@ -1,0 +1,821 @@
+2023-10-28 14:21:14,652 INFO m.ApplicationManager [ApplicationManager.java:29] created chrome browser
+2023-10-28 14:21:15,687 INFO m.ApplicationManager [ApplicationManager.java:35] open page: https://ilcarro.web.app/search
+2023-10-28 14:21:15,829 INFO m.TestNGListener [TestNGListener.java:51] start test - onstart - : Gradle test
+2023-10-28 14:21:15,856 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:21:15,856 INFO t.BaseTest [BaseTest.java:51] started method: negativePasswordWithoutLetters
+2023-10-28 14:21:15,856 INFO t.BaseTest [BaseTest.java:52] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:21:15,863 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:21:25,905 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:21:25,906 INFO m.TestNGListener [TestNGListener.java:16] started test: negativePasswordWithoutLetters
+2023-10-28 14:21:25,906 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:21:25,906 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:21:25,921 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:21:25,926 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:21:25,965 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:21:25,965 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:21:25,965 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:21:25,987 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:21:25,987 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:21:26,024 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:21:26,112 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:21:26,113 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:21:26,121 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:21:26,122 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:21:26,153 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:21:26,216 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:21:26,216 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:21:26,234 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:21:26,234 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:21:26,269 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:21:26,270 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:21:26,270 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:21:27,411 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:21:27,419 INFO m.WDListener [WDListener.java:176] get text from the element with text: "Login or Password incorrect"
+2023-10-28 14:21:27,427 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:21:27,430 INFO m.TestNGListener [TestNGListener.java:22] test success: negativePasswordWithoutLetters
+2023-10-28 14:21:27,430 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:21:27,446 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:21:27,446 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:21:27,460 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:21:30,702 INFO t.BaseTest [BaseTest.java:57] stopped method: negativePasswordWithoutLetters
+2023-10-28 14:21:30,702 INFO t.BaseTest [BaseTest.java:58] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:21:30,703 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:21:30,703 INFO t.BaseTest [BaseTest.java:51] started method: negativePasswordWithoutLetters
+2023-10-28 14:21:30,703 INFO t.BaseTest [BaseTest.java:52] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:21:30,703 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:21:40,740 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:21:40,741 INFO m.TestNGListener [TestNGListener.java:16] started test: negativePasswordWithoutLetters
+2023-10-28 14:21:40,741 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:21:40,741 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:21:40,755 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:21:40,756 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:21:40,787 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:21:40,789 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:21:40,789 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:21:40,804 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:21:40,805 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:21:40,841 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:21:40,919 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:21:40,920 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:21:40,942 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:21:40,943 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:21:40,979 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:21:41,035 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:21:41,036 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:21:41,052 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:21:41,052 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:21:41,087 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:21:41,087 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:21:41,088 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:21:41,530 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:21:41,540 INFO m.WDListener [WDListener.java:176] get text from the element with text: "Login or Password incorrect"
+2023-10-28 14:21:41,549 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:21:41,550 INFO m.TestNGListener [TestNGListener.java:22] test success: negativePasswordWithoutLetters
+2023-10-28 14:21:41,551 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:21:41,562 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:21:41,562 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:21:41,581 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:21:44,782 INFO t.BaseTest [BaseTest.java:57] stopped method: negativePasswordWithoutLetters
+2023-10-28 14:21:44,783 INFO t.BaseTest [BaseTest.java:58] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:21:44,783 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:21:44,783 INFO t.BaseTest [BaseTest.java:51] started method: negativePasswordWithoutLetters
+2023-10-28 14:21:44,784 INFO t.BaseTest [BaseTest.java:52] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:21:44,784 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:21:54,825 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:21:54,826 INFO m.TestNGListener [TestNGListener.java:16] started test: negativePasswordWithoutLetters
+2023-10-28 14:21:54,826 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:21:54,826 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:21:54,845 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:21:54,845 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:21:54,883 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:21:54,883 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:21:54,883 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:21:54,902 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:21:54,903 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:21:54,943 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:21:55,030 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:21:55,030 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:21:55,043 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:21:55,044 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:21:55,079 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:21:55,139 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:21:55,139 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:21:55,155 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:21:55,155 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:21:55,192 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:21:55,193 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:21:55,193 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:21:55,718 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:21:55,726 INFO m.WDListener [WDListener.java:176] get text from the element with text: "Login or Password incorrect"
+2023-10-28 14:21:55,732 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:21:55,733 INFO m.TestNGListener [TestNGListener.java:22] test success: negativePasswordWithoutLetters
+2023-10-28 14:21:55,734 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:21:55,748 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:21:55,748 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:21:55,767 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:21:58,959 INFO t.BaseTest [BaseTest.java:57] stopped method: negativePasswordWithoutLetters
+2023-10-28 14:21:58,959 INFO t.BaseTest [BaseTest.java:58] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:21:58,959 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:21:58,959 INFO t.BaseTest [BaseTest.java:51] started method: negativePasswordWithoutLetters
+2023-10-28 14:21:58,960 INFO t.BaseTest [BaseTest.java:52] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:21:58,960 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:08,999 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:09,000 INFO m.TestNGListener [TestNGListener.java:16] started test: negativePasswordWithoutLetters
+2023-10-28 14:22:09,000 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:09,000 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:09,014 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:09,014 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:09,044 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:09,046 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:22:09,046 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:22:09,063 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:22:09,063 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:09,105 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:09,186 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:22:09,186 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:22:09,200 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:22:09,200 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:09,234 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:09,295 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:22:09,296 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:22:09,309 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:22:09,310 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:09,342 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:09,343 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:22:09,343 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:22:09,857 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:22:09,870 INFO m.WDListener [WDListener.java:176] get text from the element with text: "Login or Password incorrect"
+2023-10-28 14:22:09,883 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:22:09,884 INFO m.TestNGListener [TestNGListener.java:22] test success: negativePasswordWithoutLetters
+2023-10-28 14:22:09,886 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:22:09,908 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:22:09,909 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:22:09,923 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:22:13,110 INFO t.BaseTest [BaseTest.java:57] stopped method: negativePasswordWithoutLetters
+2023-10-28 14:22:13,110 INFO t.BaseTest [BaseTest.java:58] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:22:13,112 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:22:13,113 INFO t.BaseTest [BaseTest.java:51] started method: negativePasswordWithoutNumbers
+2023-10-28 14:22:13,113 INFO t.BaseTest [BaseTest.java:52] started method with params: []
+2023-10-28 14:22:13,113 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:23,129 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:23,129 INFO m.TestNGListener [TestNGListener.java:16] started test: negativePasswordWithoutNumbers
+2023-10-28 14:22:23,129 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:23,129 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:23,142 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:23,142 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:23,175 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:23,177 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:22:23,177 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:22:23,192 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:22:23,192 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:23,238 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:23,323 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:22:23,323 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:22:23,345 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:22:23,345 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:23,378 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:23,438 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:22:23,438 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:22:23,454 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:22:23,455 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:23,487 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:23,487 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:22:23,487 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:22:23,937 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:22:23,946 INFO m.WDListener [WDListener.java:176] get text from the element with text: "Login or Password incorrect"
+2023-10-28 14:22:23,959 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:22:23,959 INFO m.TestNGListener [TestNGListener.java:22] test success: negativePasswordWithoutNumbers
+2023-10-28 14:22:23,960 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:22:23,994 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:22:23,994 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:22:24,021 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:22:27,205 INFO t.BaseTest [BaseTest.java:57] stopped method: negativePasswordWithoutNumbers
+2023-10-28 14:22:27,205 INFO t.BaseTest [BaseTest.java:58] stopped method with params: []
+2023-10-28 14:22:27,207 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:22:27,207 INFO t.BaseTest [BaseTest.java:51] started method: negativePasswordWithoutSymbol
+2023-10-28 14:22:27,207 INFO t.BaseTest [BaseTest.java:52] started method with params: []
+2023-10-28 14:22:27,208 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:37,254 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:37,255 INFO m.TestNGListener [TestNGListener.java:16] started test: negativePasswordWithoutSymbol
+2023-10-28 14:22:37,255 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:37,255 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:37,268 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:37,268 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:37,300 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:37,300 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:22:37,300 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:22:37,316 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:22:37,316 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:37,355 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:37,426 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:22:37,426 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:22:37,441 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:22:37,441 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:37,472 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:37,537 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:22:37,537 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:22:37,554 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:22:37,555 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:37,601 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:37,601 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:22:37,601 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:22:38,116 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:22:38,133 INFO m.WDListener [WDListener.java:176] get text from the element with text: "Login or Password incorrect"
+2023-10-28 14:22:38,144 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:22:38,145 INFO m.TestNGListener [TestNGListener.java:22] test success: negativePasswordWithoutSymbol
+2023-10-28 14:22:38,147 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:22:38,164 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:22:38,164 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:22:38,182 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:22:41,379 INFO t.BaseTest [BaseTest.java:57] stopped method: negativePasswordWithoutSymbol
+2023-10-28 14:22:41,379 INFO t.BaseTest [BaseTest.java:58] stopped method with params: []
+2023-10-28 14:22:41,381 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:22:41,381 INFO t.BaseTest [BaseTest.java:51] started method: positiveLogin
+2023-10-28 14:22:41,381 INFO t.BaseTest [BaseTest.java:52] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:22:41,382 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:51,425 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:51,426 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveLogin
+2023-10-28 14:22:51,426 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:51,426 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:51,438 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:51,440 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:51,470 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:51,470 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:22:51,470 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:22:51,486 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:22:51,486 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:51,524 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:51,598 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:22:51,598 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:22:51,612 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:22:51,612 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:51,649 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:51,708 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:22:51,709 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:22:51,722 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:22:51,722 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:51,758 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:51,758 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:22:51,758 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:22:52,100 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:22:52,108 INFO m.WDListener [WDListener.java:176] get text from the element with text: Logged in success
+2023-10-28 14:22:52,116 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:22:52,117 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveLogin
+2023-10-28 14:22:52,118 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:22:52,132 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:22:52,132 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:22:52,149 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:22:55,351 INFO t.BaseTest [BaseTest.java:57] stopped method: positiveLogin
+2023-10-28 14:22:55,351 INFO t.BaseTest [BaseTest.java:58] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:22:55,352 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:22:55,352 INFO t.BaseTest [BaseTest.java:51] started method: positiveLogin
+2023-10-28 14:22:55,352 INFO t.BaseTest [BaseTest.java:52] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:22:55,352 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:55,368 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:55,368 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:55,368 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:55,384 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:55,384 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:55,425 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:55,425 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveLogin
+2023-10-28 14:22:55,425 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:55,425 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:55,445 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:55,445 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:55,480 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:55,481 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:22:55,481 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:22:55,493 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:22:55,493 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:55,537 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:55,616 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:22:55,617 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:22:55,632 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:22:55,632 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:55,666 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:55,729 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:22:55,729 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:22:55,744 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:22:55,745 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:55,775 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:55,775 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:22:55,775 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:22:56,102 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:22:56,110 INFO m.WDListener [WDListener.java:176] get text from the element with text: Logged in success
+2023-10-28 14:22:56,118 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:22:56,118 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveLogin
+2023-10-28 14:22:56,118 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:22:56,132 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:22:56,133 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:22:56,150 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:22:59,348 INFO t.BaseTest [BaseTest.java:57] stopped method: positiveLogin
+2023-10-28 14:22:59,348 INFO t.BaseTest [BaseTest.java:58] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:22:59,349 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:22:59,349 INFO t.BaseTest [BaseTest.java:51] started method: positiveLogin
+2023-10-28 14:22:59,349 INFO t.BaseTest [BaseTest.java:52] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:22:59,349 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:59,363 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:59,363 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:59,364 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:59,373 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:22:59,373 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:59,419 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:59,420 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveLogin
+2023-10-28 14:22:59,420 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:59,420 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:59,435 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:22:59,435 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:59,470 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:59,470 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:22:59,470 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:22:59,481 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:22:59,482 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:59,521 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:59,605 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:22:59,605 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:22:59,621 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:22:59,621 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:59,658 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:59,736 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:22:59,737 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:22:59,747 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:22:59,747 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:22:59,780 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:22:59,781 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:22:59,781 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:23:00,104 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:23:00,113 INFO m.WDListener [WDListener.java:176] get text from the element with text: Logged in success
+2023-10-28 14:23:00,121 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:23:00,122 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveLogin
+2023-10-28 14:23:00,122 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:23:00,136 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:23:00,136 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:23:00,154 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:23:03,371 INFO t.BaseTest [BaseTest.java:57] stopped method: positiveLogin
+2023-10-28 14:23:03,371 INFO t.BaseTest [BaseTest.java:58] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:23:03,372 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:23:03,372 INFO t.BaseTest [BaseTest.java:51] started method: positiveLogin
+2023-10-28 14:23:03,372 INFO t.BaseTest [BaseTest.java:52] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:23:03,372 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:03,395 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:03,396 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:03,396 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:03,408 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:03,409 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:03,449 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:03,449 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveLogin
+2023-10-28 14:23:03,449 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:03,449 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:03,457 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:03,458 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:03,492 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:03,492 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:23:03,492 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:23:03,502 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:23:03,502 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:03,538 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:03,613 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:23:03,613 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:23:03,628 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:23:03,628 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:03,662 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:03,721 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:23:03,722 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:23:03,740 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:23:03,741 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:03,775 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:03,775 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:23:03,775 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:23:04,097 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:23:04,103 INFO m.WDListener [WDListener.java:176] get text from the element with text: Logged in success
+2023-10-28 14:23:04,111 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:23:04,112 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveLogin
+2023-10-28 14:23:04,113 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:23:04,129 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:23:04,130 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:23:04,146 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:23:07,343 INFO t.BaseTest [BaseTest.java:57] stopped method: positiveLogin
+2023-10-28 14:23:07,344 INFO t.BaseTest [BaseTest.java:58] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:23:07,344 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:23:07,344 INFO t.BaseTest [BaseTest.java:51] started method: positiveLogin
+2023-10-28 14:23:07,344 INFO t.BaseTest [BaseTest.java:52] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:23:07,345 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:07,357 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:07,359 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:07,359 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:07,371 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:07,372 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:07,412 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:07,414 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveLogin
+2023-10-28 14:23:07,414 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:07,414 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:07,433 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:07,434 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:07,467 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:07,468 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:23:07,468 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:23:07,481 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:23:07,482 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:07,516 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:07,589 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:23:07,590 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:23:07,604 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:23:07,604 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:07,636 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:07,721 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:23:07,721 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:23:07,743 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:23:07,743 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:07,779 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:07,779 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:23:07,779 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:23:08,101 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:23:08,107 INFO m.WDListener [WDListener.java:176] get text from the element with text: Logged in success
+2023-10-28 14:23:08,114 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:23:08,115 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveLogin
+2023-10-28 14:23:08,116 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:23:08,131 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:23:08,131 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:23:08,150 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:23:11,352 INFO t.BaseTest [BaseTest.java:57] stopped method: positiveLogin
+2023-10-28 14:23:11,353 INFO t.BaseTest [BaseTest.java:58] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:23:11,353 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:23:11,353 INFO t.BaseTest [BaseTest.java:51] started method: positiveLogin
+2023-10-28 14:23:11,353 INFO t.BaseTest [BaseTest.java:52] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:23:11,353 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:11,367 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:11,367 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:11,367 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:11,379 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:11,379 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:11,422 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:11,422 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveLogin
+2023-10-28 14:23:11,423 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:11,423 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:11,444 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:11,444 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:11,480 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:11,480 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:23:11,480 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:23:11,488 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:23:11,488 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:11,527 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:11,622 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:23:11,622 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:23:11,646 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:23:11,646 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:11,682 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:11,743 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:23:11,743 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:23:11,755 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:23:11,755 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:11,791 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:11,791 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:23:11,791 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:23:12,114 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:23:12,121 INFO m.WDListener [WDListener.java:176] get text from the element with text: Logged in success
+2023-10-28 14:23:12,128 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:23:12,128 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveLogin
+2023-10-28 14:23:12,129 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:23:12,144 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:23:12,144 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:23:12,162 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:23:15,368 INFO t.BaseTest [BaseTest.java:57] stopped method: positiveLogin
+2023-10-28 14:23:15,368 INFO t.BaseTest [BaseTest.java:58] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:23:15,369 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:23:15,370 INFO t.BaseTest [BaseTest.java:51] started method: positiveLoginUserDTO
+2023-10-28 14:23:15,370 INFO t.BaseTest [BaseTest.java:52] started method with params: []
+2023-10-28 14:23:15,370 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:15,385 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:15,386 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:15,386 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:15,399 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:15,400 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:15,437 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:15,438 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveLoginUserDTO
+2023-10-28 14:23:15,439 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:15,439 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:15,460 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:15,461 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:15,496 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:15,496 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:23:15,496 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:23:15,507 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:23:15,508 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:15,545 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:15,622 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:23:15,622 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:23:15,633 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:23:15,635 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:15,670 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:15,734 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:23:15,734 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:23:15,761 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:23:15,762 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:15,798 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:15,798 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:23:15,798 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:23:16,134 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:23:16,140 INFO m.WDListener [WDListener.java:176] get text from the element with text: Logged in success
+2023-10-28 14:23:16,148 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:23:16,148 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveLoginUserDTO
+2023-10-28 14:23:16,150 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:23:16,166 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:23:16,166 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:23:16,186 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:23:19,392 INFO t.BaseTest [BaseTest.java:57] stopped method: positiveLoginUserDTO
+2023-10-28 14:23:19,392 INFO t.BaseTest [BaseTest.java:58] stopped method with params: []
+2023-10-28 14:23:19,392 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:23:19,393 INFO t.BaseTest [BaseTest.java:51] started method: positiveLoginUserDTOWith
+2023-10-28 14:23:19,393 INFO t.BaseTest [BaseTest.java:52] started method with params: []
+2023-10-28 14:23:19,393 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:19,413 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:19,413 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:19,413 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:19,426 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:19,427 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:19,465 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:19,465 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveLoginUserDTOWith
+2023-10-28 14:23:19,466 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:19,467 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:19,487 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-10-28 14:23:19,487 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:19,522 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:19,522 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:23:19,522 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:23:19,535 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:23:19,535 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:19,573 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:19,651 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:23:19,652 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:23:19,660 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:23:19,661 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:19,696 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:19,755 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:23:19,755 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:23:19,772 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:23:19,773 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:19,804 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:19,804 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //h2[@class='message']
+2023-10-28 14:23:19,804 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //h2[@class='message']
+2023-10-28 14:23:20,128 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //h2[@class='message']
+2023-10-28 14:23:20,133 INFO m.WDListener [WDListener.java:176] get text from the element with text: Logged in success
+2023-10-28 14:23:20,142 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:23:20,143 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveLoginUserDTOWith
+2023-10-28 14:23:20,143 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:23:20,163 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:23:20,163 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:23:20,176 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:23:23,367 INFO t.BaseTest [BaseTest.java:57] stopped method: positiveLoginUserDTOWith
+2023-10-28 14:23:23,367 INFO t.BaseTest [BaseTest.java:58] stopped method with params: []
+2023-10-28 14:23:23,368 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:23:23,369 INFO t.BaseTest [BaseTest.java:51] started method: negativeRegistrationBlankEmail
+2023-10-28 14:23:23,369 INFO t.BaseTest [BaseTest.java:52] started method with params: []
+2023-10-28 14:23:23,369 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:23,378 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:23,379 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:23,379 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:23,394 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:23,394 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:23,435 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:23,435 INFO m.TestNGListener [TestNGListener.java:16] started test: negativeRegistrationBlankEmail
+2023-10-28 14:23:23,436 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:23:23,436 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:23:23,456 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:23:23,456 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:23,494 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:23,494 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='name']
+2023-10-28 14:23:23,495 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='name']
+2023-10-28 14:23:23,516 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='name']
+2023-10-28 14:23:23,517 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:23,548 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:23,606 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='lastName']
+2023-10-28 14:23:23,608 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='lastName']
+2023-10-28 14:23:23,625 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='lastName']
+2023-10-28 14:23:23,626 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:23,655 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:23,701 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:23:23,701 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:23:23,717 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:23:23,717 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:23,757 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:23,849 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:23:23,849 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:23:23,858 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:23:23,859 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:23,893 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:23,982 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector('#terms-of-use').click();
+2023-10-28 14:23:23,997 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector('#terms-of-use').click();
+2023-10-28 14:23:23,998 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@autocomplete='email']/..//div//div
+2023-10-28 14:23:23,998 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@autocomplete='email']/..//div//div
+2023-10-28 14:23:24,018 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@autocomplete='email']/..//div//div
+2023-10-28 14:23:24,026 INFO m.WDListener [WDListener.java:176] get text from the element with text: Email is required
+2023-10-28 14:23:24,034 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:23:24,034 INFO m.TestNGListener [TestNGListener.java:22] test success: negativeRegistrationBlankEmail
+2023-10-28 14:23:24,035 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:23:34,062 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:23:37,074 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:23:47,122 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:23:47,469 INFO t.BaseTest [BaseTest.java:57] stopped method: negativeRegistrationBlankEmail
+2023-10-28 14:23:47,469 INFO t.BaseTest [BaseTest.java:58] stopped method with params: []
+2023-10-28 14:23:47,470 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:23:47,470 INFO t.BaseTest [BaseTest.java:51] started method: negativeRegistrationWrongEmail
+2023-10-28 14:23:47,470 INFO t.BaseTest [BaseTest.java:52] started method with params: []
+2023-10-28 14:23:47,471 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:57,503 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:23:57,503 INFO m.TestNGListener [TestNGListener.java:16] started test: negativeRegistrationWrongEmail
+2023-10-28 14:23:57,503 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:23:57,503 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:23:57,517 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:23:57,517 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:57,564 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:57,564 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='name']
+2023-10-28 14:23:57,565 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='name']
+2023-10-28 14:23:57,580 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='name']
+2023-10-28 14:23:57,580 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:57,613 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:57,673 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='lastName']
+2023-10-28 14:23:57,673 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='lastName']
+2023-10-28 14:23:57,689 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='lastName']
+2023-10-28 14:23:57,689 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:57,728 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:57,795 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:23:57,795 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:23:57,813 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:23:57,813 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:57,851 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:57,913 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:23:57,913 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:23:57,938 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:23:57,938 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:23:57,974 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:23:58,045 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector('#terms-of-use').click();
+2023-10-28 14:23:58,059 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector('#terms-of-use').click();
+2023-10-28 14:23:58,059 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@autocomplete='email']/..//div//div
+2023-10-28 14:23:58,059 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@autocomplete='email']/..//div//div
+2023-10-28 14:23:58,078 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@autocomplete='email']/..//div//div
+2023-10-28 14:23:58,087 INFO m.WDListener [WDListener.java:176] get text from the element with text: Wrong email format
+2023-10-28 14:23:58,094 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:23:58,094 INFO m.TestNGListener [TestNGListener.java:22] test success: negativeRegistrationWrongEmail
+2023-10-28 14:23:58,096 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:24:08,130 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:24:11,130 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:24:21,176 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:24:21,653 INFO t.BaseTest [BaseTest.java:57] stopped method: negativeRegistrationWrongEmail
+2023-10-28 14:24:21,653 INFO t.BaseTest [BaseTest.java:58] stopped method with params: []
+2023-10-28 14:24:21,654 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:24:21,654 INFO t.BaseTest [BaseTest.java:51] started method: negativeRegistrationWrongPassword
+2023-10-28 14:24:21,654 INFO t.BaseTest [BaseTest.java:52] started method with params: []
+2023-10-28 14:24:21,655 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:24:31,706 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:24:31,706 INFO m.TestNGListener [TestNGListener.java:16] started test: negativeRegistrationWrongPassword
+2023-10-28 14:24:31,706 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:24:31,707 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:24:31,723 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:24:31,723 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:24:31,769 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:24:31,770 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='name']
+2023-10-28 14:24:31,770 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='name']
+2023-10-28 14:24:31,786 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='name']
+2023-10-28 14:24:31,787 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:24:31,824 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:24:31,878 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='lastName']
+2023-10-28 14:24:31,879 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='lastName']
+2023-10-28 14:24:31,896 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='lastName']
+2023-10-28 14:24:31,896 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:24:31,928 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:24:31,986 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:24:31,986 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:24:32,004 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:24:32,004 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:24:32,041 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:24:32,132 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:24:32,132 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:24:32,158 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:24:32,158 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:24:32,191 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:24:32,267 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector('#terms-of-use').click();
+2023-10-28 14:24:32,283 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector('#terms-of-use').click();
+2023-10-28 14:24:32,283 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@autocomplete='new-password']/..//div//div
+2023-10-28 14:24:32,283 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@autocomplete='new-password']/..//div//div
+2023-10-28 14:24:32,299 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@autocomplete='new-password']/..//div//div
+2023-10-28 14:24:32,308 INFO m.WDListener [WDListener.java:176] get text from the element with text: Password must contain 1 uppercase letter, 1 lowercase letter, 1 number and one special symbol of [@$#^&*!]
+2023-10-28 14:24:32,316 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:24:32,317 INFO m.TestNGListener [TestNGListener.java:22] test success: negativeRegistrationWrongPassword
+2023-10-28 14:24:32,317 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:24:42,352 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:24:45,356 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:24:55,415 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:24:55,668 INFO t.BaseTest [BaseTest.java:57] stopped method: negativeRegistrationWrongPassword
+2023-10-28 14:24:55,668 INFO t.BaseTest [BaseTest.java:58] stopped method with params: []
+2023-10-28 14:24:55,670 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:24:55,671 INFO t.BaseTest [BaseTest.java:51] started method: positiveRegistration
+2023-10-28 14:24:55,671 INFO t.BaseTest [BaseTest.java:52] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:24:55,671 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:25:05,685 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:25:05,686 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveRegistration
+2023-10-28 14:25:05,686 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:25:05,686 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:25:05,703 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:25:05,704 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:05,748 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:05,748 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='name']
+2023-10-28 14:25:05,749 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='name']
+2023-10-28 14:25:05,765 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='name']
+2023-10-28 14:25:05,765 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:05,801 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:05,860 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='lastName']
+2023-10-28 14:25:05,860 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='lastName']
+2023-10-28 14:25:05,876 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='lastName']
+2023-10-28 14:25:05,876 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:05,911 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:05,951 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:25:05,952 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:25:05,970 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:25:05,970 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:06,007 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:06,082 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:25:06,082 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:25:06,093 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:25:06,095 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:06,131 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:06,201 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector('#terms-of-use').click();
+2023-10-28 14:25:06,216 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector('#terms-of-use').click();
+2023-10-28 14:25:06,216 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:25:06,216 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:25:06,236 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:25:06,236 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:06,272 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:06,272 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //div[@class='dialog-container']//h1[@class='title']
+2023-10-28 14:25:06,272 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //div[@class='dialog-container']//h1[@class='title']
+2023-10-28 14:25:07,416 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //div[@class='dialog-container']//h1[@class='title']
+2023-10-28 14:25:07,426 INFO m.WDListener [WDListener.java:176] get text from the element with text: Registered
+2023-10-28 14:25:07,432 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:25:07,433 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveRegistration
+2023-10-28 14:25:07,434 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:25:07,448 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:25:07,449 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:25:07,466 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:25:10,466 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:25:20,520 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:25:20,900 INFO t.BaseTest [BaseTest.java:57] stopped method: positiveRegistration
+2023-10-28 14:25:20,901 INFO t.BaseTest [BaseTest.java:58] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:25:20,901 INFO t.BaseTest [BaseTest.java:50] -------------------------------------
+2023-10-28 14:25:20,901 INFO t.BaseTest [BaseTest.java:51] started method: positiveRegistration
+2023-10-28 14:25:20,901 INFO t.BaseTest [BaseTest.java:52] started method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:25:20,902 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:25:20,914 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:25:20,915 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:25:20,916 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:25:20,931 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-10-28 14:25:20,932 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:20,981 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:20,981 INFO m.TestNGListener [TestNGListener.java:16] started test: positiveRegistration
+2023-10-28 14:25:20,981 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:25:20,982 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:25:20,992 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //a[contains(@href, '/registration')]
+2023-10-28 14:25:20,992 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:21,041 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:21,041 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='name']
+2023-10-28 14:25:21,041 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='name']
+2023-10-28 14:25:21,058 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='name']
+2023-10-28 14:25:21,059 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:21,099 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:21,166 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='lastName']
+2023-10-28 14:25:21,166 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='lastName']
+2023-10-28 14:25:21,177 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='lastName']
+2023-10-28 14:25:21,177 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:21,212 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:21,275 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='email']
+2023-10-28 14:25:21,276 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='email']
+2023-10-28 14:25:21,288 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='email']
+2023-10-28 14:25:21,288 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:21,322 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:21,408 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //input[@id='password']
+2023-10-28 14:25:21,408 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //input[@id='password']
+2023-10-28 14:25:21,426 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //input[@id='password']
+2023-10-28 14:25:21,426 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:21,464 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:21,526 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector('#terms-of-use').click();
+2023-10-28 14:25:21,537 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector('#terms-of-use').click();
+2023-10-28 14:25:21,537 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //button[@type='submit']
+2023-10-28 14:25:21,537 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='submit']
+2023-10-28 14:25:21,553 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='submit']
+2023-10-28 14:25:21,553 INFO m.WDListener [WDListener.java:99] start method click: 
+2023-10-28 14:25:21,589 INFO m.WDListener [WDListener.java:105] done method click: 
+2023-10-28 14:25:21,589 INFO m.BaseHelper [BaseHelper.java:22] search element by locator: By.xpath: //div[@class='dialog-container']//h1[@class='title']
+2023-10-28 14:25:21,589 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //div[@class='dialog-container']//h1[@class='title']
+2023-10-28 14:25:21,978 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //div[@class='dialog-container']//h1[@class='title']
+2023-10-28 14:25:21,988 INFO m.WDListener [WDListener.java:176] get text from the element with text: Registered
+2023-10-28 14:25:21,996 INFO m.WDListener [WDListener.java:182] got the text successful 
+2023-10-28 14:25:21,997 INFO m.TestNGListener [TestNGListener.java:22] test success: positiveRegistration
+2023-10-28 14:25:21,997 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:25:22,008 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:25:22,009 INFO m.WDListener [WDListener.java:121] start execute JS Script: document.querySelector(`[type='button']`).click();
+2023-10-28 14:25:22,026 INFO m.WDListener [WDListener.java:127] script executed success: document.querySelector(`[type='button']`).click();
+2023-10-28 14:25:25,026 INFO m.WDListener [WDListener.java:87] before find element: By.xpath: //button[@type='button']
+2023-10-28 14:25:35,104 INFO m.WDListener [WDListener.java:93] element found success: By.xpath: //button[@type='button']
+2023-10-28 14:25:35,484 INFO t.BaseTest [BaseTest.java:57] stopped method: positiveRegistration
+2023-10-28 14:25:35,484 INFO t.BaseTest [BaseTest.java:58] stopped method with params: [dto.UserDtoLombok arg0]
+2023-10-28 14:25:35,485 INFO m.TestNGListener [TestNGListener.java:57] all code executed: passed tests: [ResultMap map=[[TestResult name=negativeRegistrationBlankEmail status=SUCCESS method=RegistrationTests.negativeRegistrationBlankEmail()[pri:0, instance:tests.RegistrationTests@73e22a3d] output={null}], [TestResult name=positiveRegistration status=SUCCESS method=RegistrationTests.positiveRegistration(dto.UserDtoLombok)[pri:0, instance:tests.RegistrationTests@73e22a3d] output={null}], [TestResult name=positiveLoginUserDTOWith status=SUCCESS method=LoginTests.positiveLoginUserDTOWith()[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=positiveLogin status=SUCCESS method=LoginTests.positiveLogin(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=negativePasswordWithoutLetters status=SUCCESS method=LoginTests.negativePasswordWithoutLetters(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=negativePasswordWithoutSymbol status=SUCCESS method=LoginTests.negativePasswordWithoutSymbol()[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=negativePasswordWithoutLetters status=SUCCESS method=LoginTests.negativePasswordWithoutLetters(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=negativePasswordWithoutLetters status=SUCCESS method=LoginTests.negativePasswordWithoutLetters(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=positiveLogin status=SUCCESS method=LoginTests.positiveLogin(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=positiveLogin status=SUCCESS method=LoginTests.positiveLogin(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=positiveLogin status=SUCCESS method=LoginTests.positiveLogin(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=negativeRegistrationWrongEmail status=SUCCESS method=RegistrationTests.negativeRegistrationWrongEmail()[pri:0, instance:tests.RegistrationTests@73e22a3d] output={null}], [TestResult name=positiveRegistration status=SUCCESS method=RegistrationTests.positiveRegistration(dto.UserDtoLombok)[pri:0, instance:tests.RegistrationTests@73e22a3d] output={null}], [TestResult name=negativeRegistrationWrongPassword status=SUCCESS method=RegistrationTests.negativeRegistrationWrongPassword()[pri:0, instance:tests.RegistrationTests@73e22a3d] output={null}], [TestResult name=negativePasswordWithoutNumbers status=SUCCESS method=LoginTests.negativePasswordWithoutNumbers()[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=negativePasswordWithoutLetters status=SUCCESS method=LoginTests.negativePasswordWithoutLetters(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=positiveLogin status=SUCCESS method=LoginTests.positiveLogin(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=positiveLoginUserDTO status=SUCCESS method=LoginTests.positiveLoginUserDTO()[pri:0, instance:tests.LoginTests@4d465b11] output={null}], [TestResult name=positiveLogin status=SUCCESS method=LoginTests.positiveLogin(dto.UserDtoLombok)[pri:0, instance:tests.LoginTests@4d465b11] output={null}]]]
+2023-10-28 14:25:35,485 INFO m.TestNGListener [TestNGListener.java:58] all code executed: failed tests: [ResultMap map=[]]

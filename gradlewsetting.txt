@@ -7,9 +7,9 @@
 
  ./gradlew clean -Dgroups=regression -Ptarget=prod loginRegression
 
-./gradlew clean -Pbrowser=firefox loginSmoke   --- failed
-./gradlew clean -Pbrowser=chrome loginSmoke   ---   failed
- ./gradlew clean -Dgroups=regression -Ptarget=fake loginRegression   ---   failed
+./gradlew clean -Pbrowser=firefox loginSmoke
+./gradlew clean -Pbrowser=chrome loginSmoke
+./gradlew clean -Dgroups=regression -Ptarget=fake loginRegression
 
 
 

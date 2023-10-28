@@ -23,4 +23,10 @@ public class RandomUtils {
         }
         return new String(randomString); // aksdhjTG78
     }
+    public String generatePassword(int length) {
+        String[] specChars = {"$", "!", "#", "@"};
+        String chars = specChars[random.nextInt(specChars.length)];
+
+        return generateString(length / 2) + chars + generateString(length / 2).toUpperCase();
+    }
 }

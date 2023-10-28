@@ -1,5 +1,7 @@
 package tests;
 
+import data.DataProviderLogin;
+import data.DataProviderRegistration;
 import dto.UserDtoLombok;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -15,21 +17,31 @@ public class RegistrationTests extends BaseTest {
     public void postconditionsRegistration() {
 
         clickOkIfRegistered();
+        app.getUserHelper().pause(3);
+        clickOkIfRegistered();
+
+
         app.getUserHelper().refreshPage();
     }
 
-    @Test(groups = {"smoke", "regression"})
-    public void positiveRegistration() {
+    @Test(groups = {"smoke", "regression"}, dataProvider = "positiveDataRegistration", dataProviderClass = DataProviderRegistration.class)
+    public void positiveRegistration(UserDtoLombok userDP) {
         String email = randomUtils.generateEmail(7);
 
-        UserDtoLombok user = UserDtoLombok.builder()
-                .email(email)
-                .password("123456Aa$")
-                .lastName("abdfg")
-                .name("test")
-                .build();
+//        UserDtoLombok user = UserDtoLombok.builder()
+//                .email(email)
+//                .password("123456Aa$")
+//                .lastName("abdfg")
+//                .name("test")
+//                .build();
 
-        app.getUserHelper().fillRegistrationForm(user);
+        app.getUserHelper().fillRegistrationForm(userDP);
+        Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterRegistration());
+    }
+
+    @Test(enabled=false, dataProvider = "regCSV", dataProviderClass = DataProviderRegistration.class)
+    public void positiveOnceRegistration(UserDtoLombok userDP) {
+        app.getUserHelper().fillRegistrationForm(userDP);
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterRegistration());
     }
 
