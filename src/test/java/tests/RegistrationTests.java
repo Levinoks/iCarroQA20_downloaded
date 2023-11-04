@@ -8,40 +8,39 @@ import org.testng.annotations.*;
 
 public class RegistrationTests extends BaseTest {
 
-    @BeforeMethod(alwaysRun = true)
-    public void preconditionsRegistration() {
-        logoutIflogin();
-    }
 
     @AfterMethod(alwaysRun = true)
     public void postconditionsRegistration() {
 
-        clickOkIfRegistered();
-        app.getUserHelper().pause(3);
-        clickOkIfRegistered();
+
+        if (flagPopUp) {
+            flagPopUp = false;
+            app.getUserHelper().clickOkPopUpSuccessLogin();
+        }
+        if (flagLogin) {
+            flagLogin = false;
+            app.getUserHelper().logout();
+        }
 
 
-        app.getUserHelper().refreshPage();
     }
 
     @Test(groups = {"smoke", "regression"}, dataProvider = "positiveDataRegistration", dataProviderClass = DataProviderRegistration.class)
     public void positiveRegistration(UserDtoLombok userDP) {
+        app.getUserHelper().refreshPage();
         String email = randomUtils.generateEmail(7);
 
-//        UserDtoLombok user = UserDtoLombok.builder()
-//                .email(email)
-//                .password("123456Aa$")
-//                .lastName("abdfg")
-//                .name("test")
-//                .build();
-
         app.getUserHelper().fillRegistrationForm(userDP);
+        app.getUserHelper().pause(1);
+        flagLogin = true;
+        flagPopUp = true;
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterRegistration());
     }
 
-    @Test(enabled=false, dataProvider = "regCSV", dataProviderClass = DataProviderRegistration.class)
+    @Test(enabled = false, dataProvider = "regCSV", dataProviderClass = DataProviderRegistration.class)
     public void positiveOnceRegistration(UserDtoLombok userDP) {
         app.getUserHelper().fillRegistrationForm(userDP);
+
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterRegistration());
     }
 
@@ -55,6 +54,7 @@ public class RegistrationTests extends BaseTest {
                 .build();
 
         app.getUserHelper().fillNegativeRegistrationForm(user);
+        app.getUserHelper().pause(1);
         Assert.assertTrue(app.getUserHelper().validateMessageIncorrectEmailReg());
     }
 
@@ -70,6 +70,7 @@ public class RegistrationTests extends BaseTest {
                 .build();
 
         app.getUserHelper().fillNegativeRegistrationForm(user);
+        app.getUserHelper().pause(1);
         Assert.assertTrue(app.getUserHelper().validateMessageWrongPasswordReg());
     }
 
@@ -83,6 +84,7 @@ public class RegistrationTests extends BaseTest {
                 .build();
 
         app.getUserHelper().fillNegativeRegistrationForm(user);
+        app.getUserHelper().pause(1);
         Assert.assertTrue(app.getUserHelper().validateErrorEmptyEmailReg());
     }
 }

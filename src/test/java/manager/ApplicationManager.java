@@ -18,25 +18,28 @@ public class ApplicationManager {
     static String browser;
     EventFiringWebDriver driver;
     UserHelper userHelper;
-    public ApplicationManager(){
-        browser=System.getProperty("browser", BrowserType.CHROME);
+    CarHelper carHelper;
+
+    public ApplicationManager() {
+        browser = System.getProperty("browser", BrowserType.CHROME);
     }
 
     public void init() {
-       // driver = new EventFiringWebDriver(new ChromeDriver());
-        if(browser.equals(BrowserType.CHROME)) {
+        // driver = new EventFiringWebDriver(new ChromeDriver());
+        if (browser.equals(BrowserType.CHROME)) {
             driver = new EventFiringWebDriver(new ChromeDriver());
             logger.info("created chrome browser");
-        }else if (browser.equals(BrowserType.FIREFOX)) {
+        } else if (browser.equals(BrowserType.FIREFOX)) {
             driver = new EventFiringWebDriver(new FirefoxDriver());
             logger.info("started tests in firefox driver");
         }
         driver.navigate().to(ConfigProperties.getProperty("url"));
-        logger.info("open page: "+ConfigProperties.getProperty("url"));
+        logger.info("open page: " + ConfigProperties.getProperty("url"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.register(new WDListener());
         userHelper = new UserHelper(driver);
+        carHelper = new CarHelper(driver);
         //logger.info("navigated to the url: https://ilcarro.web.app/search");
     }
 
@@ -46,6 +49,10 @@ public class ApplicationManager {
 
     public UserHelper getUserHelper() {
         return userHelper;
+    }
+
+    public CarHelper getCarHelper() {
+        return carHelper;
     }
 
     public void tearDown() {

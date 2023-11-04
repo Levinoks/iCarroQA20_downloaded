@@ -88,5 +88,8 @@ public class BaseHelper {
             throw new RuntimeException(e);
         }
     }
+    public void navigateToMainPage(){
+        driver.navigate().to("https://ilcarro.web.app/search");
+    }
 
 }

@@ -18,6 +18,7 @@ public class BaseTest {
 
     static ApplicationManager app = new ApplicationManager();
     RandomUtils randomUtils = new RandomUtils();
+    boolean flagLogin = false, flagPopUp = false;
 
     UserDtoLombok userDtoLombok = UserDtoLombok.builder()
             .email("testqa20@gmail.com")
@@ -32,12 +33,6 @@ public class BaseTest {
     @AfterSuite(alwaysRun = true)
     public void stop() {
         app.tearDown();
-    }
-
-    public void logoutIflogin() {
-            if(app.getUserHelper().btnLogoutExist()) {
-                app.getUserHelper().logout();
-            }
     }
 
     public void clickOkIfRegistered(){

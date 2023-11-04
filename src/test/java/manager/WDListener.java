@@ -13,6 +13,9 @@ import java.util.Arrays;
 
 public class WDListener extends AbstractWebDriverEventListener {
     Logger logger = LoggerFactory.getLogger(WDListener.class);
+    public WDListener() {
+        super();
+    }
 
 
 
@@ -21,7 +24,7 @@ public class WDListener extends AbstractWebDriverEventListener {
 
         super.beforeAlertAccept(driver);
 
-        logger.info("before alert accept: the URL is -  " + driver.getCurrentUrl());
+       // logger.info("before alert accept: the URL is -  " + driver.getCurrentUrl());
     }
 
     @Override
@@ -141,7 +144,7 @@ public class WDListener extends AbstractWebDriverEventListener {
     public void onException(Throwable throwable, WebDriver driver) {
         super.onException(throwable, driver);
         logger.info("start on exception in WD listener class");
-        String fileName = "src//test//screenshots//screenshot-" + DatesUtils.getDateString() + ".png";
+        String fileName = "src/test/screenshots/screenshot-" + DatesUtils.getDateString() + ".png";
         logger.info("created name for the screenshot " + fileName);
         logger.error(throwable.getMessage());
         logger.error(Arrays.toString(throwable.getStackTrace()));
@@ -182,7 +185,5 @@ public class WDListener extends AbstractWebDriverEventListener {
         logger.info("got the text successful ");
     }
 
-    public WDListener() {
-        super();
-    }
+
 }

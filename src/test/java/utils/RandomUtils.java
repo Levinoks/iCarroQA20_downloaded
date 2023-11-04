@@ -23,10 +23,23 @@ public class RandomUtils {
         }
         return new String(randomString); // aksdhjTG78
     }
+
+    public String generateDigitsString(int length) {
+        String characters = "123456789";
+        char[] randomString = new char[length];
+        int index = 0;
+        int charLength = characters.length();
+        for(int i = 0; i < length; i++) {
+            index = random.nextInt(charLength);
+            randomString[i] = characters.charAt(index);
+        }
+        return new String(randomString);
+    }
+
     public String generatePassword(int length) {
         String[] specChars = {"$", "!", "#", "@"};
         String chars = specChars[random.nextInt(specChars.length)];
 
-        return generateString(length / 2) + chars + generateString(length / 2).toUpperCase();
+        return generateString(3) + chars + generateDigitsString(1)+generateString(3).toUpperCase();
     }
 }
