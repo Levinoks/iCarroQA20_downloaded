@@ -2,6 +2,7 @@ package manager;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,6 +14,8 @@ public class BaseHelper {
 
 
     WebDriver driver;
+    //ApplicationManager applicationManager=new ApplicationManager();
+  //  WebDriverWait webDriverWait=new WebDriverWait(applicationManager.getDriver(), 10);
 
     public BaseHelper(WebDriver driver) {
         this.driver = driver;

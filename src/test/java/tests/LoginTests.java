@@ -27,10 +27,10 @@ public class LoginTests extends BaseTest {
     public void positiveLoginUserDTO() {
         UserDTO userDTO = new UserDTO("qwerty1@gmail.com", "User#12345");
         app.getUserHelper().login(userDTO);
-        Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterLogin());
         flagLogin = true;
         flagPopUp = true;
-        app.getUserHelper().pause(1);
+        //app.getUserHelper().pause(1);
+        Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterLogin());
     }
 
     @Test
@@ -41,7 +41,7 @@ public class LoginTests extends BaseTest {
         app.getUserHelper().login(userDTOWith);
         flagLogin = true;
         flagPopUp = true;
-        app.getUserHelper().pause(1);
+       // app.getUserHelper().pause(1);
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterLogin());
     }
 
@@ -51,7 +51,7 @@ public class LoginTests extends BaseTest {
         app.getUserHelper().loginUserDtoLombok(userDP);
         flagLogin = true;
         flagPopUp = true;
-        app.getUserHelper().pause(1);
+       // app.getUserHelper().pause(1);
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageSuccessAfterLogin());
     }
 
@@ -63,7 +63,7 @@ public class LoginTests extends BaseTest {
                 .build();
         app.getUserHelper().loginUserDtoLombok(userDtoLombok);
         flagPopUp = true;
-        app.getUserHelper().pause(1);
+       // app.getUserHelper().pause(1);
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageLoginIncorrect());
     }
 
@@ -75,7 +75,7 @@ public class LoginTests extends BaseTest {
                 .build();
         app.getUserHelper().loginUserDtoLombok(userDtoLombok);
         flagPopUp = true;
-        app.getUserHelper().pause(1);
+        //app.getUserHelper().pause(1);
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageLoginIncorrect());
     }
 
@@ -83,7 +83,7 @@ public class LoginTests extends BaseTest {
     public void negativePasswordWithoutLetters(UserDtoLombok userDP) {
         app.getUserHelper().loginUserDtoLombok(userDP);
         flagPopUp = true;
-        app.getUserHelper().pause(1);
+      //  app.getUserHelper().pause(1);
         Assert.assertTrue(app.getUserHelper().validatePopUpMessageLoginIncorrect());
     }
 }

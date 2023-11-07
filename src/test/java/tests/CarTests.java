@@ -32,7 +32,9 @@ public void postconditions(){
                 .about("Designed for a balance of power and efficiency.")
                 .build();
         app.getCarHelper().fillNewCarForm(car);
-        Assert.assertTrue(app.getCarHelper().validationCarAddedSuccess());
+        Assert.assertTrue(app.getCarHelper().validationPhotoAddedSuccess());
+        Assert.assertTrue(app.getCarHelper().validationCarAddedSuccess(car.getManufacture(), car.getModel()));
+
 
 
     }

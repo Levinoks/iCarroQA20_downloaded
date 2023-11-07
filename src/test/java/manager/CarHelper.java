@@ -3,6 +3,8 @@ package manager;
 import dto.AddCarDTO;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import tests.CarTests;
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
@@ -26,6 +28,11 @@ public class CarHelper extends BaseHelper {
     By btnSubmit = By.xpath("//button[@type='submit']");
     By inputPhoto = By.xpath("//label[@for='photos']");
     By textPopUpAddNewCarSuccess = By.xpath("//div[@class='dialog-container']/h1[@class='title']");
+    By textCarPhoto = By.xpath("//div[@class='mat-chip-ripple']");
+
+    public By getLocatorPopUp(String manuf, String model) {
+        return By.xpath(String.format("//h2[contains(text(), '%s %s added successful')]", manuf, model));
+    }
 
     public CarHelper(WebDriver driver) {
         super(driver);
@@ -46,6 +53,7 @@ public class CarHelper extends BaseHelper {
         typeTextBase(inputPrice, car.getPrice());
         typeTextBase(inputAbout, car.getAbout());
         addPictureToNewCarForm();
+
         clickBase(btnSubmit);
 
     }
@@ -53,7 +61,7 @@ public class CarHelper extends BaseHelper {
     public void addPictureToNewCarForm() {
 
         clickBase(inputPhoto);
-        pause(3);
+        pause(3);//to open the window
         String fileName = "C:\\Users\\nosni\\Data\\TelRan\\Automation\\IlCarroZip\\iCarroQA20-main\\src\\test\\resources\\car1.png";
         StringSelection str = new StringSelection(fileName);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(str, null);
@@ -74,8 +82,16 @@ public class CarHelper extends BaseHelper {
         pause(3); //to download element
     }
 
-    public boolean validationCarAddedSuccess() {
+    public boolean validationCarAddedSuccess1() {
         return isTextEqual(textPopUpAddNewCarSuccess, "Car added");
+    }
+
+    public boolean validationCarAddedSuccess(String manuf, String model) {
+        return isTextEqual(getLocatorPopUp(manuf, model), manuf+" "+model+ " added successful");
+    }
+
+    public boolean validationPhotoAddedSuccess() {
+        return isElementExist(textCarPhoto);
     }
 
 

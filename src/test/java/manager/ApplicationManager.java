@@ -36,7 +36,8 @@ public class ApplicationManager {
         driver.navigate().to(ConfigProperties.getProperty("url"));
         logger.info("open page: " + ConfigProperties.getProperty("url"));
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.register(new WDListener());
         userHelper = new UserHelper(driver);
         carHelper = new CarHelper(driver);
@@ -53,6 +54,12 @@ public class ApplicationManager {
 
     public CarHelper getCarHelper() {
         return carHelper;
+    }
+    public EventFiringWebDriver getDriver(){
+        if(driver==null) {
+            init();
+        }
+        return driver;
     }
 
     public void tearDown() {
