@@ -13,11 +13,11 @@ public class AddCarDTO {
     private String location;
     private String manufacture;
     private String model;
-    private String year;
+    private int year;
     private String fuel;
-    private String seats;
+    private int seats;
     private String carClass;
     private String regNumber;
-    private String price;
+    private int price;
     private String about;
 }

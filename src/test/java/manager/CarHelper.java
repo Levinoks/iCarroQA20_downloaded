@@ -30,6 +30,21 @@ public class CarHelper extends BaseHelper {
     By textPopUpAddNewCarSuccess = By.xpath("//div[@class='dialog-container']/h1[@class='title']");
     By textCarPhoto = By.xpath("//div[@class='mat-chip-ripple']");
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    By errorWrongAddress = By.xpath("//input[@id='pickUpPlace']/..//div");//Wrong address
+    By errorMakeIsRequired = By.xpath("//input[@id='make']/..//div");// Make is required
+    By errorModelIsRequired = By.xpath("//input[@id='model']/..//div");// Model is required
+    By errorYearIsRequired = By.xpath("//input[@id='year']/..//div//div");// Year required //Wrong year
+    By errorFuelIsRequired = By.xpath("//select[@id='fuel']/..//div"); //Fuel is required
+    By errorSeatsIsRequired = By.xpath("//input[@id='seats']/..//div/div");// Number of seats is required  //Car must have min 2 seat  //To much seats
+    By errorClassIsRequired = By.xpath("//input[@id='class']/..//div");// Car class is required
+    By errorRegNumberIsRequired = By.xpath("//input[@id='serialNumber']/..//div/div");//Car registration number is required  //To long car registration number
+    By errorPriceIsRequired = By.xpath("//input[@id='price']/..//div/div");// Price is required  //To much big price  //Price must be positive
+
+
+
+
     public By getLocatorPopUp(String manuf, String model) {
         return By.xpath(String.format("//h2[contains(text(), '%s %s added successful')]", manuf, model));
     }
@@ -40,21 +55,37 @@ public class CarHelper extends BaseHelper {
 
 
     public void fillNewCarForm(AddCarDTO car) {
-
+clickBase(btnLetTheCarWork);
         typeTextBase(inputLocation, car.getLocation());
         clickBase(inputLocationHaifa);
         typeTextBase(inputManufacture, car.getManufacture());
         typeTextBase(inputModel, car.getModel());
-        typeTextBase(inputYear, car.getYear());
+        typeTextBase(inputYear, String.valueOf(car.getYear()));
         clickBase(inputFuelOption);
-        typeTextBase(inputSeats, car.getSeats());
+        typeTextBase(inputSeats, String.valueOf(car.getSeats()));
         typeTextBase(inputCarClass, car.getCarClass());
         typeTextBase(inputRegNumber, car.getRegNumber());
-        typeTextBase(inputPrice, car.getPrice());
+        typeTextBase(inputPrice, String.valueOf(car.getPrice()));
         typeTextBase(inputAbout, car.getAbout());
-        addPictureToNewCarForm();
+      //  addPictureToNewCarForm();
 
         clickBase(btnSubmit);
+
+    }
+
+    public void fillNewCarNegativeForm(AddCarDTO car) {
+        clickBase(btnLetTheCarWork);
+        typeTextBase(inputLocation, car.getLocation());
+        clickBase(inputLocationHaifa);
+        typeTextBase(inputManufacture, car.getManufacture());
+        typeTextBase(inputModel, car.getModel());
+        typeTextBase(inputYear, String.valueOf(car.getYear()));
+        clickBase(inputFuelOption);
+        typeTextBase(inputSeats, String.valueOf(car.getSeats()));
+        typeTextBase(inputCarClass, car.getCarClass());
+        typeTextBase(inputRegNumber, car.getRegNumber());
+        typeTextBase(inputPrice, String.valueOf(car.getPrice()));
+        typeTextBase(inputAbout, car.getAbout());
 
     }
 
@@ -87,7 +118,7 @@ public class CarHelper extends BaseHelper {
     }
 
     public boolean validationCarAddedSuccess(String manuf, String model) {
-        return isTextEqual(getLocatorPopUp(manuf, model), manuf+" "+model+ " added successful");
+        return isTextEqual(getLocatorPopUp(manuf, model), manuf + " " + model + " added successful");
     }
 
     public boolean validationPhotoAddedSuccess() {
@@ -97,5 +128,44 @@ public class CarHelper extends BaseHelper {
 
     public void clickBtnNewForm() {
         clickBase(btnLetTheCarWork);
+    }
+    public boolean validateMessageWrongAddress(){
+        return isTextEqual(errorWrongAddress, "Wrong address");
+    }
+
+    public boolean validateMessageWrongYear() {
+       return (isTextEqual(errorYearIsRequired, "Year required")||isTextEqual(errorYearIsRequired, "Wrong year"));
+    }
+
+    public boolean validateMessageWrongSeats() {
+
+        return (isTextEqual(errorSeatsIsRequired, "Number of seats is required")||
+                isTextEqual(errorSeatsIsRequired, "Car must have min 2 seat")||
+                isTextEqual(errorSeatsIsRequired, "To much seats"));
+    }
+
+    public boolean validateMessageWrongPrice() {
+        // Price is required  //To much big price  //Price must be positive
+        return (isTextEqual(errorPriceIsRequired, "Price is required")||
+                isTextEqual(errorPriceIsRequired, "To much big price")||
+                isTextEqual(errorPriceIsRequired, "Price must be positive"));
+    }
+
+    public boolean validateMessageWrongRegNum() {
+        return isTextEqual(errorRegNumberIsRequired, "To long car registration number");
+    }
+
+    public void fillNewCarNegativeFormEmptyLocation(AddCarDTO car) {
+        clickBase(btnLetTheCarWork);
+        typeTextBase(inputLocation, car.getLocation());
+        typeTextBase(inputManufacture, car.getManufacture());
+        typeTextBase(inputModel, car.getModel());
+        typeTextBase(inputYear, String.valueOf(car.getYear()));
+        clickBase(inputFuelOption);
+        typeTextBase(inputSeats, String.valueOf(car.getSeats()));
+        typeTextBase(inputCarClass, car.getCarClass());
+        typeTextBase(inputRegNumber, car.getRegNumber());
+        typeTextBase(inputPrice, String.valueOf(car.getPrice()));
+        typeTextBase(inputAbout, car.getAbout());
     }
 }

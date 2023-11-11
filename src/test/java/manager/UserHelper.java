@@ -7,8 +7,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class UserHelper extends BaseHelper{
+import java.util.regex.Pattern;
+
+public class UserHelper extends BaseHelper {
 
     public UserHelper(WebDriver driver) {
         super(driver);
@@ -56,6 +61,8 @@ public class UserHelper extends BaseHelper{
     }
 
     public boolean validatePopUpMessageSuccessAfterLogin() {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.textMatches(textSuccessLoginPopUp, Pattern.compile( "[\\w]*")));
         return isTextEqual(textSuccessLoginPopUp, "Logged in success");
     }
 
@@ -69,7 +76,7 @@ public class UserHelper extends BaseHelper{
         typeTextBase(inputLastNameReg, user.getLastName());
         typeTextBase(inputEmailReg, user.getEmail());
         typeTextBase(inputPasswordReg, user.getPassword());
-               jsClickBase(btnRegNewUser);
+        jsClickBase(btnRegNewUser);
         clickBase(btnUallaReg);
     }
 
@@ -99,7 +106,7 @@ public class UserHelper extends BaseHelper{
 
     public void clickOkPopUpSuccessLogin() {
 
-         jsClickBase(btnOkPopUpStr);
+        jsClickBase(btnOkPopUpStr);
 
     }
 
@@ -119,7 +126,6 @@ public class UserHelper extends BaseHelper{
     public boolean popUpMessageSuccessAfterRegistrationExist() {
         return isElementExist(btnOkPopUp);
     }
-
 
 
 }
